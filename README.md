@@ -19,7 +19,7 @@ Now Let's see how we can mix with three.js :)
 
 ## How To Code It
 Before having a three.js native apps, we need first to install [electron](http://electron.atom.io/), checkout the [repository README.md](https://github.com/atom/electron).
-It is straightforward, just a plain npm command. 
+It is straightforward, just a plain npm command.
 
 
 ```
@@ -62,3 +62,11 @@ renderer.setClearColor(0x000000, 0);
 ```
 
 Now everything is transparent and you can see the 3d floating on top :)
+
+
+## start
+
+- `npm install -g cnpm --registry=https://registry.npm.taobao.org`
+- `set-ExecutionPolicy RemoteSigned` , set all to A
+- `npm install electron-prebuilt -g`
+- `electron .`
